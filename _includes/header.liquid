@@ -101,13 +101,15 @@
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {%- if p.pdf_path -%}
-                    {%- assign link_url = p.pdf_path | relative_url -%}
-                  {%- elsif p.permalink contains '://' -%}
-                    {%- assign link_url = p.permalink -%}
-                  {%- else -%}
-                    {%- assign link_url = p.url | relative_url -%}
-                  {%- endif %}
-                  <a class="nav-link" href="{{ link_url }}" {% if p.target == '_blank' %}target="_blank"{% endif %}>
+                    {%- assign link_url = p.pdf_path | relative_url -%}
+                  {%- elsif p.permalink contains '://' -%}
+                    {%- assign link_url = p.permalink -%}
+                  {%- elsif p.permalink contains '/blog/' -%}
+                    {%- assign link_url = '/blog/' | relative_url -%}
+                  {%- else -%}
+                    {%- assign link_url = p.url | relative_url -%}
+                  {%- endif %}
+                  <a class="nav-link" href="{{ link_url }}" {% if p.target == '_blank' %}target="_blank"{% endif %}>
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
