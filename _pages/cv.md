@@ -12,6 +12,6 @@ layout: redirect
 title: 'CV <i class="fas fa-download"></i>'
 nav: true
 nav_order: 4
-redirect: /assets/pdf/CV.pdf
+redirect: '{{ "/assets/pdf/CV.pdf" | absolute_url }}'
 target: _blank
 ---
