@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <title>Redirecting...</title>
+    <link rel="canonical" href="{{ page.redirect }}">
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
+    <script>
+      window.location.replace("{{ page.redirect }}");
+    </script>
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+    <p>If you are not redirected automatically, follow this <a href="{{ page.redirect }}">link to the PDF</a>.</p>
+  </body>
+</html>
