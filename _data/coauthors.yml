@@ -1,34 +1,29 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"qing":
+  - firstname: ["Yunpeng"]
+    url: https://arxiv.org/search/cs?searchtype=author&query=Qing,+Y
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"chi":
+  - firstname: ["Yixiao"]
+    url: https://arxiv.org/search/cs?searchtype=author&query=Chi,+Y
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"chen":
+  - firstname: ["Shuo"]
+    url: https://arxiv.org/search/cs?searchtype=author&query=Chen,+S
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"liu":
+  - firstname: ["Shunyu"]
+    url: https://arxiv.org/search/cs?searchtype=author&query=Liu,+S
+  - firstname: ["Litao"]
+    url: https://arxiv.org/search/cs?searchtype=author&query=Liu,+L
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"zhou":
+  - firstname: ["Kexuan"]
+    url: https://arxiv.org/search/cs?searchtype=author&query=Zhou,+K
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"lin":
+  - firstname: ["Sixu"]
+    url: https://arxiv.org/search/cs?searchtype=author&query=Lin,+S
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"zou":
+  - firstname: ["Changqing"]
+    url: https://arxiv.org/search/cs?searchtype=author&query=Zou,+C

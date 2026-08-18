@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: College of Computer Science and Technology, Zhejiang University
+subtitle: MSIN, Carnegie Mellon University
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: self_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Hangzhou, China</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes the publications list on the about page
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I am Yixiao Chi, a senior student at [Zhejiang University](https://www.zju.edu.cn/english/), majoring in [Computer Science and Technology](http://www.en.cs.zju.edu.cn/). I am honored to be advised by Professor [Changqing Zou](https://scholar.google.com/citations?user=kj5HiGgAAAAJ&hl=en) and [Mingli Song](https://scholar.google.com/citations?user=7oLbhAwAAAAJ&hl=en&oi=sra). I am currently a research intern in [RHOS lab](https://mvig-rhos.com/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), supervised by Professor [Yonglu Li](https://dirtyharrylyl.github.io/).
+Hello! I am Yixiao Chi, a master's student in the [Information Networking Institute](https://www.cmu.edu/ini/) at [Carnegie Mellon University](https://www.cmu.edu/). I received my bachelor's degree in Computer Science and Technology from [Zhejiang University](https://www.zju.edu.cn/english/).
 
-Currently my research intererst lies in **Reinforcement Learning**, **Vision Language Models** and **Embodied Intelligence**.
+My research interest lies in **Reinforcement Learning**, **Vision Language Action Models** and **Embodied Intelligence**. From March 2026 to July 2026, I was an Algorithm Engineer Intern at [ACE](https://www.linkedin.com/company/acerobotics/?originalSubdomain=cn), [SenseTime](https://www.sensetime.com/en/). Previously, I was a research intern in [RHOS lab](https://mvig-rhos.com/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), supervised by Professor [Yonglu Li](https://dirtyharrylyl.github.io/). During my undergraduate studies, I was honored to be advised by Professor [Changqing Zou](https://scholar.google.com/citations?user=kj5HiGgAAAAJ&hl=en) and [Mingli Song](https://scholar.google.com/citations?user=7oLbhAwAAAAJ&hl=en&oi=sra).

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Start my research intern at Shanghai jiao Tong University.
+Started my research internship at Shanghai Jiao Tong University.

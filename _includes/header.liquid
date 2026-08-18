@@ -100,7 +100,9 @@
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
-                  {%- if p.pdf_path -%}
+                  {%- if p.nav_url -%}
+                    {%- assign link_url = p.nav_url | relative_url -%}
+                  {%- elsif p.pdf_path -%}
                     {%- assign link_url = p.pdf_path | relative_url -%}
                   {%- elsif p.permalink contains '://' -%}
                     {%- assign link_url = p.permalink -%}

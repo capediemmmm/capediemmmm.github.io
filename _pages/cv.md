@@ -11,6 +11,6 @@
 title: 'CV <i class="fas fa-download"></i>'
 nav: true
 nav_order: 4
-pdf_path: /assets/pdf/CV.pdf
+pdf_path: /assets/pdf/Yixiao_Chi_CV.pdf
 target: _blank
 ---

@@ -51,6 +51,7 @@
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
+      {% if entry.collaboration %}{{ entry.collaboration }} ({% endif %}
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
@@ -85,10 +86,17 @@
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </em>
+          <strong>
+            {%- if coauthor_url -%}
+              <a href="{{ coauthor_url }}">
+                {{- author.first }}
+                {{ author_last_html -}}
+              </a>
+            {%- else -%}
+              {{- author.first }}
+              {{ author_last_html -}}
+            {%- endif -%}
+          </strong>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
@@ -136,6 +144,8 @@
           {{- more_authors_hide -}}
         </span>
       {% endif %}
+      {% if entry.contributor_role %} as a {{ entry.contributor_role }}{% endif %}
+      {% if entry.collaboration %}){% endif %}
       {% if entry.annotation %}
         <i
           class="fa-solid fa-circle-info ml-1"
