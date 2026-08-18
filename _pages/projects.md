@@ -6,6 +6,7 @@ description: A growing collection of your cool projects.
 nav: true
 nav_order: 2
 nav_url: /
+sitemap: false
 display_categories: [work, fun]
 horizontal: false
 ---
